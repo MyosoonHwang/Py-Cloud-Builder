@@ -1,0 +1,25 @@
+# 1. 보안 관련
+.env
+.env.*
+*.key
+*.pem
+
+# 2. 파이썬 컴파일 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. 가상환경 폴더
+venv/
+.venv/
+env/
+ENV/
+
+# 4. IDE 설정 파일
+.vscode/
+.idea/
+
+# 5. 운영체제 파일
+.DS_Store
+Thumbs.db
