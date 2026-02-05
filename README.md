@@ -40,8 +40,7 @@ NHN_PW=본인API비밀번호
 
 🚀 사용 방법 (Usage)
 프로그램을 실행하면 대화형 메뉴가 나타납니다.
-```
-Bash
+```Bash
 python main.py
 ```
 메인 메뉴
