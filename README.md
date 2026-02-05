@@ -25,8 +25,9 @@
 
 ```bash
 pip install requests python-dotenv
+```
 
-**2. .env 파일 설정 (선택 사항)
+2. .env 파일 설정 (선택 사항)
 프로젝트 루트 경로에 .env 파일을 생성하고 아래 내용을 작성하면, 실행 시 자동으로 정보를 불러옵니다. (보안을 위해 이 파일은 GitHub에 업로드하지 마세요!)
 
 코드 스니펫
@@ -39,9 +40,10 @@ NHN_PW=본인API비밀번호
 
 🚀 사용 방법 (Usage)
 프로그램을 실행하면 대화형 메뉴가 나타납니다.
-
+```
 Bash
 python main.py
+```
 메인 메뉴
 📊 조회 (List): 현재 프로젝트 내의 VPC 및 서브넷 현황을 트리 구조로 확인합니다.
 
@@ -58,8 +60,5 @@ Q. 자동 조회가 실패하고 Tenant ID를 입력하라고 합니다.
 
 A. API 권한 문제로 프로젝트 목록 조회가 막힌 경우입니다. 당황하지 말고 NHN Cloud 콘솔에서 **Tenant ID(Project ID)**를 복사해 입력하면 정상적으로 진행됩니다.
 
-Q. GitHub에 올릴 때 주의할 점이 있나요?
-
-A. .gitignore 파일에 .env가 포함되어 있는지 꼭 확인하세요. 아이디와 비밀번호가 공개되지 않도록 주의해야 합니다.
 
 Developer: MyosoonHwang
