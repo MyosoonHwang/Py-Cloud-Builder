@@ -49,11 +49,6 @@
 
 ---
 
-## 🧑‍💻 Developer
-* **Name:** Hwang Woo Hyeok
-* **Contact:** [GitHub Profile](https://github.com/MyosoonHwang)
-
-
 # ⚡ Quick Start Guide
 
 이 가이드는 **Py-Cloud-Builder**를 로컬 환경에서 즉시 실행하기 위한 단계별 지침입니다.
@@ -107,3 +102,8 @@ Step 3: 접속
 브라우저가 자동으로 열리지 않으면 아래 주소로 접속하세요.
 
 주소: http://localhost:8081
+
+
+## 🧑‍💻 Developer
+* **Name:** Hwang Woo Hyeok
+* **Contact:** [GitHub Profile](https://github.com/MyosoonHwang)
