@@ -24,8 +24,6 @@ pip install requests python-dotenv
 ```
 ### Step 3: 인증 정보 설정 (.env)
 # .env 파일 내용
-Ini, TOML
-# .env 파일 내용
 NHN_ID=your_email@example.com
 NHN_PW=your_password
 # Tenant ID는 비워두면 로그인 시 자동으로 목록을 가져옵니다.
