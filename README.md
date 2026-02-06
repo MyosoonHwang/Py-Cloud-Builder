@@ -78,24 +78,26 @@ pip install -r requirements.txt
 ```
 ### Step 3: 인증 정보 설정 (.env)
 프로젝트 폴더 안에 .env 파일을 만들고 아래 내용을 채워넣으세요.
-NHN_ID="your_email@example.com 또는 ID"
 
-# API 비밀번호 (콘솔 > 회원정보 > API 보안 설정에서 발급 추천)
-NHN_PW="your_api_password"
+### NHN ID 입력
+NHN_ID="ex_your_email@example.com 또는 ID"
 
-# 테넌트 ID 입력
+### API 비밀번호 (콘솔 > 회원정보 > API 보안 설정에서 발급 추천)
+NHN_PW="ex_password"
+
+#### 테넌트 ID 입력
 NHN_TENANT_ID=" "
 
 🚀 실행 방법 (How to Run)
 [중요] 웹 터미널(WebSSH)과 메인 화면을 동시에 사용하기 위해 터미널을 2개 띄워야 합니다.
 
-Step 1: WebSSH 서버 실행 (터미널 1)
+### Step 1: WebSSH 서버 실행 (터미널 1)
 첫 번째 터미널을 열고 아래 명령어를 입력하여 백그라운드 SSH 서버를 켭니다. (이 터미널은 끄지 말고 켜두세요!) (ctrl + `)
 
 ```Bash
 python -m webssh.main --port=8888
 ```
-Step 2: 메인 웹 서버 실행 (터미널 2)
+### Step 2: 메인 웹 서버 실행 (터미널 2)
 새로운 터미널(+ 버튼)을 열고 메인 프로그램을 실행합니다.
 
 ```Bash
