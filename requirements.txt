@@ -1,0 +1,5 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+pywebio>=1.8.0
+paramiko>=3.4.0
+webssh>=1.6.0
