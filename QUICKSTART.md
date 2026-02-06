@@ -35,5 +35,5 @@ NHN Cloud 콘솔에서 **Tenant ID(Project ID)**를 복사해 입력하면 정�
 🚀 3. 실행 (Run)
 설정이 완료되었다면 main.py를 실행합니다.
 ```Bash
-python main.py
+py main.py
 ```
