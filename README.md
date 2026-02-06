@@ -52,3 +52,56 @@
 ## 🧑‍💻 Developer
 * **Name:** Hwang Woo Hyeok
 * **Contact:** [GitHub Profile](https://github.com/MyosoonHwang)
+
+
+# ⚡ Quick Start Guide
+
+이 가이드는 **Py-Cloud-Builder**를 로컬 환경에서 즉시 실행하기 위한 단계별 지침입니다.
+
+## 📋 1. 준비물 (Prerequisites)
+* **Python 3.10** 이상
+* **Git**
+* **NHN Cloud 계정** (API 비밀번호 권장)
+
+## 🚀 2. 설치 및 실행 (Setup & Run)
+
+### Step 1: 프로젝트 클론
+터미널(PowerShell, CMD, Terminal)을 열고 프로젝트를 다운로드합니다.
+```bash
+git clone [https://github.com/MyosoonHwang/Py-Cloud-Builder.git](https://github.com/MyosoonHwang/Py-Cloud-Builder.git)
+cd Py-Cloud-Builder
+```
+
+### Step 2: 필수 패키지 설치
+```bash
+pip install -r requirements.txt
+```
+### Step 3: 인증 정보 설정 (.env)
+프로젝트 폴더 안에 .env 파일을 만들고 아래 내용을 채워넣으세요.
+NHN_ID="your_email@example.com 또는 ID"
+
+# API 비밀번호 (콘솔 > 회원정보 > API 보안 설정에서 발급 추천)
+NHN_PW="your_api_password"
+
+# 테넌트 ID 입력
+NHN_TENANT_ID=" "
+
+🚀 실행 방법 (How to Run)
+[중요] 웹 터미널(WebSSH)과 메인 화면을 동시에 사용하기 위해 터미널을 2개 띄워야 합니다.
+
+Step 1: WebSSH 서버 실행 (터미널 1)
+첫 번째 터미널을 열고 아래 명령어를 입력하여 백그라운드 SSH 서버를 켭니다. (이 터미널은 끄지 말고 켜두세요!) (ctrl + `)
+
+```Bash
+python -m webssh.main --port=8888
+```
+Step 2: 메인 웹 서버 실행 (터미널 2)
+새로운 터미널(+ 버튼)을 열고 메인 프로그램을 실행합니다.
+
+```Bash
+python web.py
+```
+Step 3: 접속
+브라우저가 자동으로 열리지 않으면 아래 주소로 접속하세요.
+
+주소: http://localhost:8081
